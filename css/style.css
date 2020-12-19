@@ -1,6 +1,11 @@
 /* Universal styles */
+html {
+    height: 100%;
+}
+
 body {
     background-image: url(../css/images/background-image.jpg);
+    height: 100%;
     width: 100%;
     padding-top: 100px;
     padding-bottom:50px;
@@ -57,13 +62,11 @@ nav {
 /* Pushese About Me image off of other content */
 .index-img {
     padding-right: 20px;
-    padding-top: 5px;
 }
 
 /* Footer Section */
 footer {
-    text-align: center;
-    color: rgb(53, 53, 53); 
-    padding: 5px;
-    margin-bottom: -20px;
+    width: 100%;
 }
+
+/* Media Queries */
