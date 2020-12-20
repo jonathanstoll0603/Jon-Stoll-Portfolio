@@ -29,29 +29,15 @@ nav {
 
 .navbar-brand {
     font-size: 22px;
-    margin-left: 40px;
-    margin-right: 100px;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-    margin-top: 20px;
-}
-
-.navbar-toggler {
-    margin-right: 20px;
 }
 
 .dropdown {
     font-size: 22px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 15px;
 }
 
 
 /* Container spacing */
-.container {
+.wrapper {
     background-color: rgb(233, 233, 233);
     width: 786px;
     padding: 15px;
@@ -70,3 +56,14 @@ footer {
 }
 
 /* Media Queries */
+@media screen and (max-width: 576px) { 
+    .wrapper {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+    .wrapper {
+        width: 350px;
+    }
+}
